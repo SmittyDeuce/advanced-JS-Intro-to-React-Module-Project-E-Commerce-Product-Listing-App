@@ -1,0 +1,76 @@
+📌 Project Overview
+In this project, students will build a simple E-Commerce Product
+Listing App using React. This project reinforces React components,
+props, and state by designing a layout without using frameworks like
+Bootstrap, focusing on custom styling.
+
+✨ Learning Objectives
+By the end of this project, students will be able to:
+    ✅ Organize code using React components.
+    
+    ✅ Manage state using the useState hook.
+    
+    ✅ Pass and manage data through props between components.
+    
+    ✅ Structure a React application with a parent-child component hierarchy.
+Note: Students will not be using event handling yet, but this 
+project sets the foundation for it in later lessons.
+
+
+📌 Component Breakdown & Tasks
+1️⃣ App Component (Parent Component)
+    Responsibilities:
+        Manages the state that holds an array of products.
+        
+        Passes the list of products as a prop to the
+        ProductList component.
+        
+        Styles the main structure of the app using CSS.
+    
+    Tasks for Students:
+        ✅ Initialize state using useState to store a list of
+        products (each product should have attributes like id,
+        name, price, and description).
+        
+        ✅ Pass the product list as props to ProductList.
+
+        ✅ Apply custom CSS styling for the app layout.
+
+
+
+2️⃣ ProductList Component (Receives products as props)
+    Responsibilities:
+        Receives the product list from App as a prop.
+        Maps through the product list and renders each
+        product using ProductItem.
+    
+    Tasks for Students:
+        ✅ Create a ProductList component that takes the product list
+        as a prop and maps through it.
+
+        ✅ Use the .map() method to iterate over products and render
+        a ProductItem for each.
+
+        ✅ Apply custom CSS styling for the product list layout.
+
+
+
+3️⃣ ProductItem Component (Receives individual product data as props)
+    Responsibilities:
+        Represents one product with its name, price, and description.
+        
+        Receives individual product data from ProductList via props.
+    
+    Tasks for Students:
+        ✅ Display product details: Name, Price, and Description.
+        
+        ✅ Use props to receive data and render it dynamically.
+        
+        ✅ Style each product visually distinct using CSS.
+
+
+
+✅ Final Checklist Before Submission
+    ✅ A list of products is displayed on the page.
+    ✅ React components are structured properly with state and props.
+    ✅ CSS is applied for a well-styled, responsive UI.
